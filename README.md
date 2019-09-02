@@ -1,7 +1,29 @@
 # Persons API
 ---
 
-This restful API is built using NodeJs with Typescript. Currently it uses a API key to gain access to the routes using the Register and Login routes. Currently this is still in development so more options will come.  
+This restful API is built using NodeJs with Typescript. Currently it uses a API key to gain access to the routes using the Register and Login routes. Currently this is still in development so more options will come.
+
+
+---
+
+# Run Commands:
+
+npm run start: Transpiles TypeScript files to JavaScript.
+
+npm run dev: Starts the development server using Nodemon.
+
+npm run build: Builds the application.
+
+
+## Environment Variables:
+
+create a .env file inside the main directory and add the following:
+
+```text
+PORT=5000
+DB_USER=
+DB_PASSWORD=
+```
 
 ## Routes
 ---
@@ -136,6 +158,8 @@ Eample Body:
 [ ] Add ability to delete a person
 
 [ ] Add ability to update a person
+
+[ ] Improve log system
 
 
 ### Logs
